@@ -57,7 +57,7 @@ Seven role-playing relationships (e.g. departure vs. arrival station/time) are k
 | **3. Railway Performance** | On-time %, delays, cancellations, refund exposure |
 | **4. Route Analysis** | Busiest routes, top stations, revenue yield per route |
 
-*(Add dashboard screenshots here, e.g. `/screenshots/page1.png`)*
+![Passenger Analysis](./screenshots/Page1.png)
 
 ---
 
@@ -87,7 +87,7 @@ Seven role-playing relationships (e.g. departure vs. arrival station/time) are k
 ```
 uk-railways-powerbi-report/
 ├── README.md              # This file
-├── Report.pbix             # Power BI report (if included)
+├── dax-workbook/          # Power BI report / exported DAX file
 ├── docs/
 │   └── measures.md         # Full DAX measure reference
 └── screenshots/            # Dashboard page images
